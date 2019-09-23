@@ -14,7 +14,7 @@ import EditProducts from './components/EditProducts';
 function App() {
 	return (
 		<React.Fragment>
-			<h1>A simple CRUD using React, Redux & Redux-Thunk</h1>
+			<h1>A simple CRUD using React, Redux, Redux Thunk and JSON Server as a fake API</h1>
 			<Provider store={store}>
 				<Router>
 					<Header />
